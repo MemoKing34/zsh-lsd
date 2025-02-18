@@ -1,3 +1,5 @@
+alias rls='/usr/bin/ls' # for using real ls
+
 alias ls='lsd'
 alias l='lsd -la'
 alias ll='lsd -l'
@@ -28,4 +30,3 @@ alias lsz='lsd -l --total-size'
 alias l.='lsd -A | grep "^\."'
 alias lsa='lsd -la --permission octal'
 alias li='lsd -l --inode'
-alias rls='ls' #for using real ls
